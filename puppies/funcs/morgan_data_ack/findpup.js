@@ -106,7 +106,7 @@ const row_selector = 'table tbody';
 
 async function wrapUP () {
     const tableData = await getTableData(baseurl, row_selector)
-    const done = ['MS B.39.json', 'MS B.55.json', 'MS G.3.json', 'MS G.16.json', 'MS G.24.json', 'MS G.32.json']
+    const done = ['MS B.39.json', 'MS B.55.json', 'MS G.3.json', 'MS G.16.json', 'MS G.24.json', 'MS G.32.json', 'MS G.50.json', '']
     if (tableData) {
         for (const table of tableData) {
             console.log(table, 'starting')
